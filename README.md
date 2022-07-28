@@ -1,5 +1,7 @@
 This project demonstrates a failure in web publish that occurs when
-using hardlinks for publish.
+using hardlinks for publish. This is [Visual Studio Developer
+Community Issue
+10105786](https://developercommunity.visualstudio.com/t/-/10105786)
 
 To reduce storage usage, there are [multiple properties which control
 usage of hard links](https://github.com/dotnet/msbuild/issues/3788)
