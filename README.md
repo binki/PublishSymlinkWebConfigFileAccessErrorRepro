@@ -40,7 +40,7 @@ To reproduce this:
 
    ```
    C:\Program Files\dotnet\sdk\6.0.302\Sdks\Microsoft.NET.Sdk.Publish\targets\TransformTargets\Microsoft.NET.Sdk.Publish.TransformFiles.targets(50,5): Error MSB4018: The "TransformWebConfig" task failed unexpectedly.
-System.IO.IOException: The process cannot access the file 'C:\Users\ohnob\AppData\Local\Temp\PublishSymlinkWebConfigFileAccessErrorRepro\PublishSymlinkWebConfigFileAccessErrorRepro\obj\Release\net6.0\PubTmp\Out\web.config' because it is being used by another process.
+   System.IO.IOException: The process cannot access the file 'C:\Users\ohnob\AppData\Local\Temp\PublishSymlinkWebConfigFileAccessErrorRepro\PublishSymlinkWebConfigFileAccessErrorRepro\obj\Release\net6.0\PubTmp\Out\web.config' because it is being used by another process.
       at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
       at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
       at Microsoft.NET.Sdk.Publish.Tasks.TransformWebConfig.Execute()
