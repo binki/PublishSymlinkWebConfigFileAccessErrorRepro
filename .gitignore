@@ -3,6 +3,6 @@
 *.exe
 bin/
 obj/
-.user
+*.user
 *~
 *\#*
